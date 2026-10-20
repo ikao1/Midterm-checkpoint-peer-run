@@ -142,11 +142,14 @@ If a movie or sequence codec will not load, use an **image sequence** instead �
 
 # Peer run
 
-- **Classmate:** _(name here)_
+- **Classmate:** Fiori
 - **Sentences:**
-  1. _(what they did)_
-  2. _(what happened)_
-  3. _(what confused or broke)_
+  Irene Kao (Motion Texture Studio)
+1. What I did: I cloned ikao1/Midterm-checkpoint-peer-run, installed motion_texture_studio.py in Blender 5.2 via Edit → Preferences → Add-ons → Install from Disk, enabled it, opened the Motion Texture sidebar tab 👎, and followed the README: loaded assets/test_texture.png with Open Still…, clicked Apply to Selected on the default cube, then ran the Scroll X motion preset and pressed Play.
+2. What happened: It worked as documented — the add-on registered, Apply created a MotionTexture_Cube material with a full node graph (image texture, mapping, bump, displacement), and Scroll X keyframed the mapping's location from 0 to 1 across frames 1–48, so the texture visibly scrolled on the surface. I also confirmed Glossy surface preset, Revert to Still, and Play/Pause all ran without errors.
+3. What confused me / what broke: The source path field next to the buttons didn't load the image on its own — I had to use the Open Still… button specifically,
+motion_texture_studio.py
+which wasn't obvious from the README. The playback speed menu (0.25x–2x) and the loop modes are listed in the UI but the README says they're not implemented yet, which was slightly confusing to see available but inert.
 
 # Running a classmate's tool
 
