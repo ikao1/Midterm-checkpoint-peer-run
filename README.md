@@ -142,8 +142,6 @@ If a movie or sequence codec will not load, use an **image sequence** instead �
 
 # Peer run
 
-> A classmate who does not have Blender can still run this: use a portable (unzipped) Blender build — no install needed — or a screen-shared session. Record their name and three sentences here: what they did, what happened, what confused or broke.
-
 - **Classmate:** _(name here)_
 - **Sentences:**
   1. _(what they did)_
